@@ -26,6 +26,8 @@
 5. **LEFT SHIFT (`<<`)**: Moves the bits of a number to the left by a specified number of places.
 6. **RIGHT SHIFT (`>>`)**: Moves the bits of a number to the right by a specified number of places.
 
+### note-
+Ex- bin(c): This function converts the integer c to its binary string representation (e.g., '0b110101'). 
 ---
 
 # Additional Information
