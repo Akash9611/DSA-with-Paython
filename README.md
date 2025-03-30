@@ -50,5 +50,29 @@ Ex- bin(c): This function converts the integer c to its binary string representa
   - `a >> b` shifts `a` right by `b` bits, reducing its value significantly.
 
 
+# Command Line Arguments in Python
+
+Python allows users to pass arguments to scripts via the command line using the `sys` module.
+
+## Understanding Command Line Arguments
+- `sys.argv` is a list in Python that contains command-line arguments.
+- The first element (`sys.argv[0]`) is the script name.
+- Subsequent elements (`sys.argv[1:]`) are the additional arguments passed.
+- `len(sys.argv)` gives the total number of arguments including the script name.
+- Arguments are passed as strings and may need conversion to other types.
+
+## Example Usage
+- Consider the command:
+  ```
+  python commandLineArguments.py 5 6
+  ```
+  This passes `5` and `6` as arguments.
+- Output Explanation:
+  - **Argument Length**: `3` (includes script name and two arguments)
+  - **Argument List**: `['commandLineArguments.py', '5', '6']`
+  - **Converted Values**:
+    - `x = 5`, `y = 6`
+    - **Addition Result**: `x + y = 11`
+
 
 
