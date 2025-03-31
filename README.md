@@ -152,5 +152,7 @@ A **list** in Python is a collection that is ordered, mutable, and allows duplic
 - Adding elements (`append()`, `insert()`)
 - Removing elements (`remove()`, `pop()`, `del`)
 - Iterating through a list using loops (`for`, `while`)
+- Concatenating two list (`+`)
+- Repeating same list (`*`, Ex- list_name * how_may_times `listA * 2`)
 
 Lists are fundamental in Python and widely used for storing collections of data efficiently.
