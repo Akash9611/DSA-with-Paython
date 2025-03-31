@@ -156,3 +156,19 @@ A **list** in Python is a collection that is ordered, mutable, and allows duplic
 - Repeating same list (`*`, Ex- list_name * how_may_times `listA * 2`)
 
 Lists are fundamental in Python and widely used for storing collections of data efficiently.
+
+## Additional List Functions
+
+1. **Finding List Length**
+   - `len(a)`: Returns the number of elements in the list.
+
+2. **Creating a List Using `range()`**
+   - Example: `list(range(5))` creates `[0, 1, 2, 3, 4]`.
+
+3. **Finding Maximum and Minimum Values**
+   - `max(a)`: Returns the maximum value based on ASCII values (for strings) or numerical comparison (for numbers).
+   - `min(a)`: Returns the minimum value based on ASCII values (for strings) or numerical comparison (for numbers).
+
+4. **Converting Other Data Types to Lists**
+   - **Tuple to List:** `list(Tuple_object)` converts a tuple into a list.
+   - **String to List:** `list(string_value)` converts a string into a list of characters.
