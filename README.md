@@ -57,7 +57,7 @@ Python allows users to pass arguments to scripts via the command line using the 
 ## Understanding Command Line Arguments
 - `sys.argv` is a list in Python that contains command-line arguments.
 - The first element (`sys.argv[0]`) is the script name.
-- Subsequent elements (`sys.argv[1:]`) are the additional arguments passed.
+- Subsequent elements (`sys.argv[1]`) are the additional arguments passed.
 - `len(sys.argv)` gives the total number of arguments including the script name.
 - Arguments are passed as strings and may need conversion to other types.
 
