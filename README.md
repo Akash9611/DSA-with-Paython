@@ -154,6 +154,11 @@ A **list** in Python is a collection that is ordered, mutable, and allows duplic
 - Iterating through a list using loops (`for`, `while`)
 - Concatenating two list (`+`)
 - Repeating same list (`*`, Ex- list_name * how_may_times `listA * 2`)
+- Reversing list (`reverse`)
+- Finding index of element ( `index(value)`)
+- extent/To concatenate 2 lists (`extend()`, EX- listA.extend(listB))
+- sorting list (`sort`)
+- Finding the count of values in list (`count(value)`, Ex- listA.count(value))
 
 Lists are fundamental in Python and widely used for storing collections of data efficiently.
 
