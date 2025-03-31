@@ -74,5 +74,17 @@ Python allows users to pass arguments to scripts via the command line using the 
     - `x = 5`, `y = 6`
     - **Addition Result**: `x + y = 11`
 
+# Membership Operators in Python
+
+Python provides two membership operators:
+1. **`in` Operator**: Checks if a value exists in a sequence (e.g., list, tuple, dictionary, etc.).
+2. **`not in` Operator**: Checks if a value does not exist in a sequence.
+
+### Example Explanation
+- Given a list `[1,2,3,4,5,6]`:
+  - If `a = 10`, `a in list` returns `False`.
+  - If `b = 12`, `b not in list` returns `True`.
+  - If `c = 4`, `c in list` returns `True`.
+
 
 
